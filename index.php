@@ -2,12 +2,11 @@
 <html>
     
     <head>
-        <meta charset="utf-8">
-        <title>GETTING STARTED WITH BRACKETS</title>
-        <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <title>GETTING STARTED WITH BRACKETS</title>
+    <link rel="stylesheet" href="style.css">
     </head>
-    <body>
-        
+    <body>        
         <h1>LETS STRART IT</h1>
             <h2>KEEP GOING</h2>
             <form action="smth.php" method="POST">
