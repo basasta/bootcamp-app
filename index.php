@@ -5,9 +5,10 @@
     <meta charset="utf-8">
     <title>GETTING STARTED WITH BRACKETS</title>
     <link rel="stylesheet" href="style.css">
+    <script scr="js.app.js"></script>
     </head>
     <body>        
-        <h1>LETS STRART IT</h1>
+        <h1>LETS START IT</h1>
             <h2>KEEP GOING</h2>
             <form action="smth.php" method="POST">
                     <label for="urname"> Your name: </label>
@@ -18,5 +19,6 @@
             </form>
             <p>Click on puppy below plzzzz</p>
         <a href="indexcopy.php" title="GO TO INDEXCOPY PAGE" target="_blank"><img src="http://www.hdpaperz.com/wallpaper/original/black-beautiful-dog-1920x1080-wallpaper-3990.jpg" alt="puppy" width="1080" height="720" /></a>
+        <script type="text/javascript" src="js/app.js"></script>
     </body>
 </html>

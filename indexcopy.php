@@ -17,5 +17,6 @@
             </form>
               <p>Click on GUITAR below plzzzz</p>
         <a href="index.php" title="GO TO INDEX PAGE" target="_blank"><img src="http://www.hdpaperz.com/wallpaper/original/super-3d-guitar-in-the-sky-1920x1080.jpg" width="1080" height="720" alt="puppy" /></a>
+        <script type="text/javascript" src="js/app.js"></script>
     </body>
 </html>
