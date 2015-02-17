@@ -1,0 +1,10 @@
+h1:hover{
+font-weight: bold;
+color: #ccc;
+}
+h2 {
+color:#ccc;
+}
+input:focus {
+border:1px solid lightblue;
+}
