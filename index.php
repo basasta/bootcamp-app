@@ -3,8 +3,8 @@
     
     <head>
         <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>GETTING STARTED WITH BRACKETS</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         
@@ -17,7 +17,6 @@
                         <input type="password" name="passw" id="passw"/> <br />
                     <button>Log in</button>
             </form>
-        <a href="#"><img src="http://www.hdpaperz.com/wallpaper/original/black-beautiful-dog-1920x1080-wallpaper-3990.jpg" alt="puppy" /></a>
-      
+        <a href="indexcopy.php" title="GO TO INDEXCOPY PAGE" target="_blank"><img src="http://www.hdpaperz.com/wallpaper/original/black-beautiful-dog-1920x1080-wallpaper-3990.jpg" alt="puppy" /></a>
     </body>
 </html>
