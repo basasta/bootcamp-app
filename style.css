@@ -8,3 +8,6 @@ color:#ccc;
 input:focus {
 border:1px solid lightblue;
 }
+p{
+font-size: 28px;
+}

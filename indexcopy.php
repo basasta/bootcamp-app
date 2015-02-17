@@ -15,8 +15,9 @@
                         <input type="text" name="name" id="urname"/><br />
                     <label for="passw"> Your password: </label>
                         <input type="password" name="passw" id="passw"/> <br />
-                    <button>Log in</button>
+                    <button>Log in</button>         
             </form>
-        <a href="index.php" title="GO TO INDEX PAGE" target="_blank"><img src="http://www.hdpaperz.com/wallpaper/original/super-3d-guitar-in-the-sky-1920x1080.jpg" alt="puppy" /></a>
+              <p>Click on GUITAR below plzzzz</p>
+        <a href="index.php" title="GO TO INDEX PAGE" target="_blank"><img src="http://www.hdpaperz.com/wallpaper/original/super-3d-guitar-in-the-sky-1920x1080.jpg" width="1080" height="720" alt="puppy" /></a>
     </body>
 </html>
