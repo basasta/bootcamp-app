@@ -8,14 +8,14 @@
     <script scr="js.app.js"></script>
     </head>
     <body>        
-        <h1>LETS START IT</h1>
+        <h1><?php echo "some random staff";?></h1>
             <h2>KEEP GOING</h2>
-            <form action="smth.php" method="POST">
+            <form action="lesson.php" method="POST">
                     <label for="urname"> Your name: </label>
                         <input type="text" name="name" id="urname"/><br />
                     <label for="passw"> Your password: </label>
                         <input type="password" name="passw" id="passw"/> <br />
-                    <button>Log in</button>
+                    <button type="submit">Log in</button>
             </form>
             <p>Click on puppy below plzzzz</p>
         <a href="indexcopy.php" title="GO TO INDEXCOPY PAGE" target="_blank"><img src="http://www.hdpaperz.com/wallpaper/original/black-beautiful-dog-1920x1080-wallpaper-3990.jpg" alt="puppy" width="1080" height="720" /></a>
