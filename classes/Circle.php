@@ -1,6 +1,5 @@
 <?php
 
-
 namespace Bootcamp\Demo;
 
 class Circle extends Shape  //Inherits properties from Shape Class!
