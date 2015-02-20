@@ -10,4 +10,6 @@ install:
 
   - composer update
 
-script: phpunit
+script: 
+  - ./vendor/bin/phpunit
+  - ./vendor/bin/phpcs --standard=PSR2 ./classes
