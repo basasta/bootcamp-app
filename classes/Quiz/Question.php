@@ -2,7 +2,7 @@
 
 namespace Bootcamp\Demo\Quiz;
     
-class Questions
+class Question
 {
 
     /**
@@ -26,19 +26,33 @@ class Questions
     protected $type;
 
     /**
-     * @param $options 
-     * @return array
-     */
-    public function addOption(Option $options)
-    {
-    
-    }
-
-    /**
      * @param $title is a string
      */
     public function __construct($title)
     {
-        this->title = $title;
+        $this->title = $title;
+        $this->options = [];
+    } 
+    
+    /**
+     * @param $options 
+     * @return array
+     */
+    public function addOption(Option $option)
+    {
+        $this->options[] = $option;
     }
-}
+    
+    public function isMultiAnswer() {
+        $count  = 0;
+        foreach ($this->options as $option){
+            if($option->isCorrect() === true) {
+                $count++;
+            }
+            if($count>1){
+                return true;
+            }
+        }
+        return false;  
+    }
+}       

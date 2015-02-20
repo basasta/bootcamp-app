@@ -21,11 +21,20 @@ class Quiz
     protected $id;
 
     /**
-     * 
+     * @param question is linked just to Question class 
+     * @return string
      */
-    public function addQuestion()
+    public function addQuestion(Question $question)
     {
-    
+        $this->questions[] = $question;
+    }
+
+    /**
+     * @param $name 
+     */
+     public function __construct($name)
+    {
+        $this->name = $name;
     }
     
 }
