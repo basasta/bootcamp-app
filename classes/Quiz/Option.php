@@ -30,4 +30,13 @@ class Option
         $this->isCorrect = $isCorrect;
     }
 
+    /**
+     * @param $name is string
+     * @param $isCorrect is boolean, will check the truth
+     */
+    public function isCorrect($isCorrect)
+    {         
+        $this->isCorrect = $isCorrect;
+    }
+
 }

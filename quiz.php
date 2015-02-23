@@ -5,7 +5,7 @@ require __DIR__."/vendor/autoload.php";
 use Bootcamp\Demo\Quiz\Option;
 use Bootcamp\Demo\Quiz\Question;
 use Bootcamp\Demo\Quiz\Quiz;
-use \mockery as m;
+
 
 $options = [];
 $options[] = new Option("1");

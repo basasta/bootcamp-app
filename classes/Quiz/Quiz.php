@@ -4,7 +4,7 @@ namespace Bootcamp\Demo\Quiz;
     
 class Quiz
 {
-
+        
     /**
      * @var $questions gonna be an array
      */
@@ -32,7 +32,7 @@ class Quiz
     /**
      * @param $name 
      */
-     public function __construct($name)
+    public function __construct($name)
     {
         $this->name = $name;
     }

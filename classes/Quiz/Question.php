@@ -3,7 +3,7 @@
 namespace Bootcamp\Demo\Quiz;
     
 class Question
-{
+{       
 
     /**
      * @var $options gonna be an array
@@ -26,6 +26,10 @@ class Question
     protected $type;
 
     /**
+     * @var $correctAnswerCount gonna be an integer
+     */    
+    protected $correctAnswerCount = 0;
+    /**
      * @param $title is a string
      */
     public function __construct($title)
@@ -41,18 +45,15 @@ class Question
     public function addOption(Option $option)
     {
         $this->options[] = $option;
+    
+        if (true === $option->isCorrect()){
+        $this->$correctAnswerCount++;
+        }
+            return correctAnswerCount > 1;
     }
     
     public function isMultiAnswer() {
-        $count  = 0;
-        foreach ($this->options as $option){
-            if($option->isCorrect() === true) {
-                $count++;
-            }
-            if($count>1){
-                return true;
-            }
-        }
-        return false;  
+        return $this->isMultiAnswer > 1;
     }
+      
 }       
