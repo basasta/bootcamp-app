@@ -12,12 +12,11 @@ var sourcemaps = require('gulp-sourcemaps');
 
 gulp.task('javascript', function() {
 
-  var bundler = browserify({
+    var bundler = browserify({
     entries: ['./resources/assets/js/app.js'],
     debug: true
   });
-
-  var bundle = function() {
+    var bundle = function() {
     return bundler
       .bundle()
       .pipe(source('app.js'))
@@ -28,14 +27,13 @@ gulp.task('javascript', function() {
       .pipe(sourcemaps.write('./'))
       .pipe(gulp.dest('./public/js/'));
   };
-
   return bundle();
 });
 
 gulp.task('less', function () {
-  return gulp.src('resources/assets/less/app.less')
-    .pipe(less({
-      paths: [ path.join(__dirname, 'less', 'includes') ]
+    return gulp.src('resources/assets/less/app.less')
+      .pipe(less({
+        paths: [ path.join(__dirname, 'less', 'includes') ]
     }))
     .pipe(gulp.dest('./public/css'));
 });
